@@ -1,0 +1,312 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #ff151f;
+	color: #fff;
+}
+
+body h3,
+body p {
+	color: #fff;
+}
+
+.row {
+	margin: 0;
+}
+
+.container-fluid {
+	padding: 0!important;
+}
+
+
+/* HEADER */
+.navbar-default {
+	height: 70px!important;
+	background-color: #fff!important;
+	border: none!important;
+}
+
+.navbar-brand {
+	background-color: #fff!important;
+	width: 250px!important;
+	height: 70px!important;
+}
+
+.navbar-brand img {
+	margin: 0 auto!important;
+}
+
+
+.nav>li {
+	background-color: #fff!important;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #555!important;
+	font-weight: bold;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+	color: #ff151f!important;
+}
+
+li>a {
+	text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+	background-color: #555!important;
+	color: #ccc!important;
+}
+
+.navbar-nav .open .dropdown-menu {
+	padding: 0!important;
+}
+
+.navbar-toggle {
+	background-color: #555!important;
+	border:none!important;
+	margin-top: 18px!important;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #fff!important;
+}
+
+.navbar-collapse {
+	border: none!important;
+}
+
+.fa-3x {
+	color: #ccc!important;
+}
+
+
+@media(max-width: 767px) {
+	.nav>li:first-child {
+		padding-top: 10px!important;
+		margin-top: -10px!important;
+	}
+
+	.nav>li:last-child {
+		padding-bottom: 8px!important;
+	}
+
+	.nav>li>a {
+		letter-spacing: 2px!important;
+		padding: 0 20px!important;
+		line-height: 50px!important;
+	}
+
+	.fa {
+		position: absolute;
+		top: 13px;
+		left: 900px;
+	}
+}
+
+@media(min-width: 768px) { /* notebook */
+	.navbar-header {
+		background-color: dodgerblue;
+	}
+
+	.nav>li {
+		margin-top: 10px!important;
+	}
+
+	.nav>li>a {
+		letter-spacing: 2px!important;
+		padding: 0 20px!important;
+		line-height: 50px!important;
+		font-size: 12px;
+	}
+
+	.nav {
+		padding-right: 80px!important;
+	}
+
+	.fa {
+		position: absolute;
+		top: 13px;
+		right: 100px;
+	}
+}
+
+
+/* Carousel */
+.carousel {
+	margin-top: 70px!important;
+}
+
+.carousel-caption {
+	bottom: 38%!important;
+	background-color: rgba(0,0,0,0.2)!important;
+	padding-top: 0!important;
+	padding-bottom: 0!important;
+}
+
+.carousel-caption h2 {
+	font-size: 2em;
+}
+
+.carousel-caption-sub {
+	position:absolute;
+	right:5%;
+	bottom:20%;
+	left:5%;
+	color:#fff;
+	text-align:center;
+	text-shadow:0 1px 2px rgba(0,0,0,.6);
+	background-color: red;
+	border-radius: 10px;
+}
+
+.carousel-caption-sub h3 {
+	font-size: 0.6em;
+}
+
+@media(max-width:767px) {
+	.carousel-caption-sub {
+		height: 30px;
+	}
+
+	.carousel-caption-sub h3 {
+		margin: 0;
+		padding-top: 7px;
+	}
+
+	.carousel-indicators{
+		bottom: -8px;
+	}
+}
+
+@media(min-width:768px) {
+	.carousel-caption {
+		bottom: 50%!important;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	.carousel-caption h2 {
+		font-size: 4em;
+	}
+
+	.carousel-caption-sub {
+		right:32%;
+		left:32%;
+		bottom: 35%;
+		padding: 10px 0;
+	}
+
+	.carousel-caption-sub h3 {
+		margin: 0;
+		font-size: 1.1em;
+	}
+
+	.carousel-indicators{
+		bottom: 100px;
+	}
+}
+
+
+/* ARTICLE quemsomos */
+.quemsomos {
+	padding-top: 50px;
+	background-color: #ff151f;
+}
+
+.quemsomos img {
+	width: 100%;
+}
+
+
+
+@media(min-width: 901px) { /* notebook */
+	.quemsomos p {
+		font-size: 17px;
+	}
+}
+
+
+/* ARTICLE depoimentos */
+.depoimentos {
+	padding-top: 50px;
+	background-color: #ff151f;
+}
+
+.depoimentos span {
+	font-weight: bold;
+	font-size: 17px;
+}
+
+@media(min-width: 901px) { /* notebook */
+	.depoimentos i {
+		font-size: 17px;
+	}
+}
+
+
+/* ARTICLE servicos */
+.servicos {
+	padding-top: 50px;
+	height: 1000px;
+	background-color: #ff151f;
+}
+
+.servicos h2 {
+	padding-left: 20px;
+}
+
+.caption {
+	background-color: #ff151f;
+	border: 3px solid #ff151f!important;
+}
+
+.thumbnail {
+	background-color: #ff151f;
+	border: 1px solid #ff151f;
+}
+
+
+/* ARTICLE contato */
+.contato {
+	background-color: #fff;
+	height: 1000px;
+	background-color: #ff151f;
+}
+
+.contato h2 {
+	padding-left: 20px;
+}
+
+.form-control {
+	background-color: #ff151f!important;
+	color: #fff;
+}
+
+
+/* FOOTER */
+.footer {
+	background-color: #ccc;
+	height: 100px;
+	padding-top: 20px;
+}
+
+.footer p {
+	text-align: center;
+	color: #222;
+}
+
+
+/* cores
+	#ff151f
+	#555
+	#fff
+	#ccc
+*/
